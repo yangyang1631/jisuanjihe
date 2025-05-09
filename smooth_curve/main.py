@@ -6,7 +6,7 @@ from editor.controls import EditorControls
 class BezierEditor:
     def __init__(self, root):
         self.root = root
-        self.root.title("贝塞尔曲线编辑器")
+        self.root.title("曲线编辑器")
 
         # 创建控制面板
         self.control_panel = tk.Frame(root)
